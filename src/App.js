@@ -9,8 +9,6 @@ function App() {
     <div className="App">
     <Routes>
         <Route path="/" element={<Visualize/>}/>
-        <Route path="/visualize" element={<Visualize/>}/>
-        <Route path="/predict" element={<Predict/>}/>
       </Routes>
       </div>
       </BrowserRouter>
